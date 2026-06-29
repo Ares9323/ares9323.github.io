@@ -1,52 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marco Patrignani — Ares9323</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <script defer src="assets/main.js"></script>
-</head>
-<body class="home">
-    <header>
-        <h1>Marco Patrignani</h1>
-        <div class="handle">@Ares9323</div>
-        <p class="tagline">Game developer. Unreal Engine tool/plugin programmer &amp; Android apps.</p>
+---
+layout: default
+title: "Ares9323 - Marco Patrignani"
+body_class: home
+---
+
+<header>
+        <p class="wip-banner">🚧 Work in progress — this site is currently being built.</p>
     </header>
 
     <main>
-        <h2>Projects</h2>
-        <div class="projects">
-            <a class="card" href="https://github.com/Ares9323/UEPluginsDocumentation" target="_blank" rel="noopener">
-                <h3>Unreal Engine Plugins</h3>
-                <p>Documentation for my Unreal Engine plugins.</p>
-                <span class="meta">GitHub →</span>
-            </a>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Ares, a game developer from Pesaro, Italy. I work in Unreal Engine
+            every day as a programmer and tech artist, and over the years I've collaborated
+            with studios in Italy and abroad on everything from procedural generation and
+            enemy AI to VR experiences and virtual production.</p>
+            <p>I also enjoy game jams, with a few awards along the way, and I build and sell
+            my own tools and plugins for Unreal Engine on <a href="https://www.fab.com/sellers/Ares9323" target="_blank" rel="noopener">FAB</a>.</p>
+            <p><a href="about/index.html">Read more about me<span class="link-icon link-icon--hyperlink" aria-hidden="true"></span></a></p>
+        </section>
 
-            <a class="card" href="filament-manager/index.html">
-                <h3>Filament Manager</h3>
-                <p>Android app to track and manage 3D printing filament spools, with optional Google Sheets sync.</p>
-                <span class="meta">View project →</span>
-            </a>
+        <section id="ue-plugins">
+            <h2>Unreal Engine Plugins</h2>
+            <div class="projects">
+                <div class="card">
+                    <h3>AdvancedEditorUtilities <span class="title-links"><a href="https://www.fab.com/listings/ee6ed5e0-75ae-4390-81a4-e983776eb0e7" target="_blank" rel="noopener" title="Fab" aria-label="Fab"><span class="link-icon link-icon--fab"></span></a><a href="https://github.com/Ares9323/UEPluginsDocumentation/blob/master/AdvancedEditorUtilities/README.md" target="_blank" rel="noopener" title="Documentation" aria-label="Documentation"><span class="link-icon link-icon--github"></span></a></span></h3>
+                    <p>Editor utilities to improve your daily workflow.</p>
+                </div>
 
-            <a class="card" href="cash365/index.html">
-                <h3>Cash365</h3>
-                <p>Android app for personal expense tracking, with Google Sheets sync.</p>
-                <span class="meta">View project →</span>
-            </a>
+                <div class="card">
+                    <h3>TonemapperSwapper <span class="title-links"><a href="https://www.fab.com/listings/aa0e0734-8877-47d6-9ab7-5d0f719467a2" target="_blank" rel="noopener" title="Fab" aria-label="Fab"><span class="link-icon link-icon--fab"></span></a><a href="https://github.com/Ares9323/UEPluginsDocumentation/blob/master/TonemapperSwapper/README.md" target="_blank" rel="noopener" title="Documentation" aria-label="Documentation"><span class="link-icon link-icon--github"></span></a></span></h3>
+                    <p>Tonemapper replacement with support for the AgX and GT algorithms.</p>
+                </div>
 
-            <!-- Aggiungeremo altri progetti qui in seguito -->
-        </div>
+                <div class="card">
+                    <h3>ComponentSorter <span class="title-links"><a href="https://www.fab.com/listings/bd2419db-ebae-488b-b241-5eadd8b2f1b1" target="_blank" rel="noopener" title="Fab" aria-label="Fab"><span class="link-icon link-icon--fab"></span></a><a href="https://github.com/Ares9323/UEPluginsDocumentation/blob/master/ComponentSorter/README.md" target="_blank" rel="noopener" title="Documentation" aria-label="Documentation"><span class="link-icon link-icon--github"></span></a></span></h3>
+                    <p>Automatic hierarchical sorting of actor components.</p>
+                </div>
 
-        <h2>Elsewhere</h2>
-        <div class="links">
-            <a href="https://github.com/Ares9323" target="_blank" rel="noopener">GitHub</a>
-            <a href="mailto:marcopatrignani.mp@gmail.com">Email</a>
-        </div>
+                <div class="card">
+                    <h3>ViewportActorWidgets <span class="title-links"><a href="https://www.fab.com/listings/bdcc831b-28ce-47b0-8b23-79941a080c2d" target="_blank" rel="noopener" title="Fab" aria-label="Fab"><span class="link-icon link-icon--fab"></span></a><a href="https://github.com/Ares9323/UEPluginsDocumentation/blob/master/ViewportActorWidgets/README.md" target="_blank" rel="noopener" title="Documentation" aria-label="Documentation"><span class="link-icon link-icon--github"></span></a></span></h3>
+                    <p>Pin interactive UMG widgets to your actors directly in the editor viewport.</p>
+                </div>
+
+                <div class="card">
+                    <h3>LevelBookmarks <span class="title-links"><a href="https://www.fab.com/listings/8427a449-06f0-4c8a-8c1e-dced8dd56f2c" target="_blank" rel="noopener" title="Fab" aria-label="Fab"><span class="link-icon link-icon--fab"></span></a><a href="https://github.com/Ares9323/UEPluginsDocumentation/blob/master/LevelBookmarks/README.md" target="_blank" rel="noopener" title="Documentation" aria-label="Documentation"><span class="link-icon link-icon--github"></span></a></span></h3>
+                    <p>Quick toolbar dropdown to jump to your favorite levels.</p>
+                </div>
+
+                <div class="card">
+                    <h3>WidgetDesignerUtilities <span class="title-links"><a href="https://www.fab.com/listings/f2c89fbf-cf4e-4cac-99b5-709f29920d2d" target="_blank" rel="noopener" title="Fab" aria-label="Fab"><span class="link-icon link-icon--fab"></span></a><a href="https://github.com/Ares9323/UEPluginsDocumentation/blob/master/WidgetDesignerUtilities/README.md" target="_blank" rel="noopener" title="Documentation" aria-label="Documentation"><span class="link-icon link-icon--github"></span></a></span></h3>
+                    <p>Color-coding, batch rename, binding warnings and widget extraction tools for UMG.</p>
+                </div>
+
+                <div class="card">
+                    <h3>SpoutMedia <span class="title-links"><a href="https://www.fab.com/listings/db53002f-f4db-491e-b14c-eab9ef0d7ac3" target="_blank" rel="noopener" title="Fab" aria-label="Fab"><span class="link-icon link-icon--fab"></span></a><a href="https://github.com/Ares9323/UEPluginsDocumentation/blob/master/SpoutMedia/README.md" target="_blank" rel="noopener" title="Documentation" aria-label="Documentation"><span class="link-icon link-icon--github"></span></a></span></h3>
+                    <p>Spout2 Media Sources and Media Outputs built on the native Media framework.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Other Unreal Engine Plugins <span class="title-links"><a href="https://www.fab.com/sellers/Ares9323" target="_blank" rel="noopener" title="Fab" aria-label="Fab"><span class="link-icon link-icon--fab"></span></a><a href="https://github.com/Ares9323/UEPluginsDocumentation" target="_blank" rel="noopener" title="Documentation" aria-label="Documentation"><span class="link-icon link-icon--github"></span></a></span></h3>
+                    <p>All my Unreal Engine plugins.</p>
+                </div>
+            </div>
+        </section>
+        <section id="android-apps">
+            <h2>Android Apps</h2>
+            <div class="projects">
+                <a class="card" href="filament-manager/index.html" title="View project">
+                    <h3>Filament Manager <span class="link-icon link-icon--hyperlink" aria-hidden="true"></span></h3>
+                    <p>Android app to track and manage 3D printing filament spools, with optional Google Sheets sync.</p>
+                </a>
+
+                <a class="card" href="cash365/index.html" title="View project">
+                    <h3>Cash365 <span class="link-icon link-icon--hyperlink" aria-hidden="true"></span></h3>
+                    <p>Android app for personal expense tracking, with Google Sheets sync.</p>
+                </a>
+
+                <a class="card" href="burraco/index.html" title="View project">
+                    <h3>Burraco Counter <span class="link-icon link-icon--hyperlink" aria-hidden="true"></span></h3>
+                    <p>Offline Android app to keep score for the card game Burraco, with match history and player stats.</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="open-source-projects">
+            <h2>Open Source Projects</h2>
+            <div class="projects">
+                <a class="card" href="https://github.com/Ares9323/ReHoarder" target="_blank" rel="noopener" title="GitHub">
+                    <h3>ReHoarder <span class="link-icon link-icon--github" aria-hidden="true"></span></h3>
+                    <p>Open-source desktop manager for your Unreal Engine asset library across FAB, Epic Vault and the legacy Marketplace.</p>
+                </a>
+
+                <a class="card" href="https://github.com/Ares9323/AresToys" target="_blank" rel="noopener" title="GitHub">
+                    <h3>AresToys <span class="link-icon link-icon--github" aria-hidden="true"></span></h3>
+                    <p>Windows productivity suite: clipboard history, screenshot capture and upload, and a keyboard launcher in one Fluent UI, plus AI background removal, raster-to-SVG tracing and QR tools.</p>
+                </a>
+            </div>
+        </section>
+        <br>
     </main>
-
-    <footer>
-        <p>&copy; <span data-year>2026</span> Marco Patrignani (Ares9323)</p>
-    </footer>
-</body>
-</html>

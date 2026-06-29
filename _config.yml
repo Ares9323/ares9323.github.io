@@ -1,0 +1,15 @@
+title: "Ares9323 — Marco Patrignani"
+lang: en
+
+# Custom domain served at root, so no baseurl.
+url: "https://ares9323.it"
+
+donate:
+  kofi: "https://ko-fi.com/ares9323"
+  paypal: "https://paypal.me/ares9323"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md

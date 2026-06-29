@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cash365</title>
-    <link rel="stylesheet" href="../assets/style.css">
-    <script defer src="../assets/main.js"></script>
-</head>
-<body>
-    <a class="back" href="../">&larr; Marco Patrignani</a>
+---
+layout: default
+title: "Cash365"
+---
 
-    <header>
+<header>
         <h1>Cash365</h1>
         <p class="tagline">Personal expense tracking, synced to your own Google account.</p>
     </header>
@@ -35,6 +28,8 @@
             <a class="cta" href="https://play.google.com/store/apps/details?id=com.ares9323.cash365" target="_blank" rel="noopener">Get it on Google Play</a>
         </p>
 
+        {% include support.html app="Cash365" %}
+
         <h2>Privacy</h2>
         <p>
             Cash365 only accesses files it creates in your Google Drive
@@ -48,9 +43,3 @@
             <a href="mailto:marcopatrignani.mp@gmail.com">marcopatrignani.mp@gmail.com</a>.
         </p>
     </main>
-
-    <footer>
-        <p>&copy; <span data-year>2026</span> Marco Patrignani (Ares9323)</p>
-    </footer>
-</body>
-</html>

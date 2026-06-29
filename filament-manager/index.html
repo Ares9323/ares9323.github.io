@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filament Manager</title>
-    <link rel="stylesheet" href="../assets/style.css">
-    <script defer src="../assets/main.js"></script>
-</head>
-<body>
-    <a class="back" href="../">&larr; Marco Patrignani</a>
+---
+layout: default
+title: "Filament Manager"
+---
 
-    <header>
+<header>
         <h1>Filament Manager</h1>
         <p class="tagline">Track and manage your 3D printing filament spools.</p>
     </header>
@@ -37,6 +30,8 @@
             <a class="cta" href="https://play.google.com/store/apps/details?id=com.ares9323.filamentmanager" target="_blank" rel="noopener">Get it on Google Play</a>
         </p>
 
+        {% include support.html app="Filament Manager" %}
+
         <h2>Privacy</h2>
         <p>
             Filament Manager only accesses files it creates in your Google Drive
@@ -50,9 +45,3 @@
             <a href="mailto:marcopatrignani.mp@gmail.com">marcopatrignani.mp@gmail.com</a>.
         </p>
     </main>
-
-    <footer>
-        <p>&copy; <span data-year>2026</span> Marco Patrignani (Ares9323)</p>
-    </footer>
-</body>
-</html>
